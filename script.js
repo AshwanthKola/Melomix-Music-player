@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const playlistElement = document.getElementById("playlist");
 
     // Example API URL (Replace with your actual API)
-    const API_URL = "https://api.example.com/music";
+    const API_URL = "https://api.deezer.com/track/{id}";
 
     // Fetch songs from the API
     fetch(API_URL)
